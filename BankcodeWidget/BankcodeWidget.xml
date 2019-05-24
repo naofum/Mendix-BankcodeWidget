@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="BankcodeWidget.widget.BankcodeWidget" offlineCapable="true" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+  <name>BankcodeWidget</name>
+  <description>BankcodeWidget using http://bank-auto.com/</description>
+  <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABpSURBVDhP3ZJBDoAwCATB//9ZXRIaWlmCqScnaU/shK3qeSMbHLhU1U6XOG8CX6Ij8RnPmAB0JGsYDAGoJFkYTAKQSVgY0K+wbkHGnhs4McDCYNog654RheWPVHV3aIUuP6jw7Ru8R+QCGqRJBNsWtfYAAAAASUVORK5CYII=</icon>
+  <properties>
+    <property key="bankname" type="string" required="true">
+      <caption>BankName</caption>
+      <category>Properties</category>
+      <description>TextBox name of BankName</description>
+    </property>
+    <property key="bankcode" type="string" required="true">
+      <caption>BankCode</caption>
+      <category>Properties</category>
+      <description>TextBox name of BankCode</description>
+    </property>
+    <property key="branchname" type="string" required="true">
+      <caption>BranchName</caption>
+      <category>Properties</category>
+      <description>TextBox name of BranchName</description>
+    </property>
+    <property key="branchcode" type="string" required="true">
+      <caption>BranchCode</caption>
+      <category>Properties</category>
+      <description>TextBox name of BranchCode</description>
+    </property>
+  </properties>
+</widget>
